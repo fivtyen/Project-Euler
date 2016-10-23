@@ -6,7 +6,6 @@ b = str(a)
 c = []
 tmp, result = 1, 0
 
-
 for digit in b:
     c.append((int(digit)))
 
