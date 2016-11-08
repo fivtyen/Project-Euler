@@ -1,13 +1,9 @@
 # Project Euler problem no. 14
 
-def is_odd(n):
-    if n%2 != 0:
-        return True
-
 def collatz_counter(n):
     tab = [n]
     while n > 1:
-        if is_odd(n) == True:
+        if n%2 != 0:
             n = 3 * n + 1
             tab.append(int(n))
         else:
