@@ -2,8 +2,8 @@
 
 tab =[]
 
-with open("p022_names.txt") as name_file:
-    for word in name_file.read().split(","):
+with open("p022_names.txt") as names_file:
+    for word in names_file.read().split(","):
         tab.append(str(word))
 
 value = 0
