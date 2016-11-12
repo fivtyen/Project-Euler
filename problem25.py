@@ -9,7 +9,7 @@ number = 4000
 while True:
     num_check = fibbonaci(number)
     if len(str(num_check)) == 1000:
-        print(number, num_check)
+        print(number)
         break
     else:
         number += 1
