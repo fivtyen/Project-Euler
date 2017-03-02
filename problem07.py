@@ -16,4 +16,4 @@ while i <= 10001:
     else:
         num += 1
 
-print(num)
+print(num-1)
