@@ -2,8 +2,6 @@
 
 from math import sqrt
 import itertools
-import time
-import datetime
 
 
 def is_prime(n):
