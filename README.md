@@ -4,5 +4,5 @@ My solutions to Project Euler's problems (https://projecteuler.net/archives) as 
 Implementend in Python 3.5.2. 
 
 Progress:
+![progress](https://projecteuler.net/profile/swizy1.png)
 
-[img]https://projecteuler.net/profile/swizy1.png[/img]
