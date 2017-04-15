@@ -14,7 +14,6 @@ A = 0
 B = 0
 N = 0
 
-
 for a in range(-999, 1000):
     for b in range(-1000, 1001):
         n = 0
