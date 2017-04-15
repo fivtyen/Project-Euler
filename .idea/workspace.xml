@@ -12,11 +12,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="problem26.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="problem26.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problem26.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem27.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problem27.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,16 +49,16 @@
       <list>
         <option value="$PROJECT_DIR$/problem17.py" />
         <option value="$PROJECT_DIR$/problem19.py" />
-        <option value="$PROJECT_DIR$/problem27.py" />
         <option value="$PROJECT_DIR$/problem26.py" />
+        <option value="$PROJECT_DIR$/problem27.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
-    <option name="y" value="64" />
-    <option name="width" value="1569" />
-    <option name="height" value="977" />
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -98,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.problem26">
+  <component name="RunManager" selected="Python.problem27 (1)">
     <configuration default="false" name="problem17" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,6 +181,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="problem27 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Euler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem27.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,18 +264,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.problem17" />
       <item index="1" class="java.lang.String" itemvalue="Python.problem19" />
       <item index="2" class="java.lang.String" itemvalue="Python.problem27" />
       <item index="3" class="java.lang.String" itemvalue="Python.problem26" />
+      <item index="4" class="java.lang.String" itemvalue="Python.problem27 (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.problem26" />
-        <item index="1" class="java.lang.String" itemvalue="Python.problem27" />
-        <item index="2" class="java.lang.String" itemvalue="Python.problem19" />
-        <item index="3" class="java.lang.String" itemvalue="Python.problem17" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.problem27 (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.problem26" />
+        <item index="2" class="java.lang.String" itemvalue="Python.problem27" />
+        <item index="3" class="java.lang.String" itemvalue="Python.problem19" />
+        <item index="4" class="java.lang.String" itemvalue="Python.problem17" />
       </list>
     </recent_temporary>
   </component>
@@ -265,13 +295,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="64" width="1569" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983433" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20095949" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1966" y="109" width="999" height="821" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1938" y="415" width="999" height="821" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -316,6 +345,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem27.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
