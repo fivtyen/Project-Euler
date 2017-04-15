@@ -20,5 +20,3 @@ for i in range(1, 1000):
         rMax = reminders(i)
 
 print("Number: {} with {} reminders.".format(iMax, rMax))
-
-
