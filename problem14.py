@@ -1,5 +1,3 @@
-# Project Euler problem no. 14
-
 def collatz_counter(n):
     tab = [n]
     while n > 1:

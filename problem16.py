@@ -1,5 +1,3 @@
-# Project Euler problem no. 16
-
 import math
 
 result = 0

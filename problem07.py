@@ -1,7 +1,6 @@
-# Project Euler no. 7
-# What is the 10 001st prime number?
-
 import math
+
+
 def is_prime(n):
     if n % 2 == 0 and n > 2:
         return False
@@ -10,7 +9,7 @@ def is_prime(n):
 num, i = 2, 1
 
 while i <= 10001:
-    if is_prime(num) == True:
+    if is_prime(num):
         num += 1
         i += 1
     else:

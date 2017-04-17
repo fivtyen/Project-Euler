@@ -1,6 +1,3 @@
-# Project Euler problem no. 12
-# What is the value of the first triangle number to have over five hundred divisors?
-
 from math import sqrt
 
 def factors(number):

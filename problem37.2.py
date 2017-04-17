@@ -12,6 +12,7 @@ result, counter, i = 0, 0, 4
 with open("primes1.txt", "r") as file:
     for line in file:
         primes.append(int(line.replace("\n", "")))
+        primes.append(int(line.replace("\n", "")))
 
 while counter < 11:
     n = primes[i]
