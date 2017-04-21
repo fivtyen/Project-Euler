@@ -1,12 +1,12 @@
 import itertools
 
-Pandigitals = list(itertools.permutations(range(10), 10))
+pandigitals = list(itertools.permutations(range(10), 10))
 sPandigitals = []
 divisors = [0, 2, 3, 5, 7, 11, 13, 17]
 result = 0
 
-for i in range(len(Pandigitals)):
-    n = (str(Pandigitals[i]).replace("(", "").replace(")", "").replace(",", "").replace(" ", ""))
+for i in range(len(pandigitals)):
+    n = (str(pandigitals[i]).replace("(", "").replace(")", "").replace(",", "").replace(" ", ""))
     sPandigitals.append(n)
 
 for j in sPandigitals:
