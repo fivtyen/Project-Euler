@@ -1,27 +1,27 @@
-def orderDigits(number):
+def order_digits(number):
     number = str(number)
-    orderedDigits = []
+    ordered_digits = []
     for digit in number:
-        orderedDigits.append(digit)
-    orderedDigits.sort()
-    return orderedDigits
+        ordered_digits.append(digit)
+    ordered_digits.sort()
+    return ordered_digits
 
 
-def checkMultis(number):
+def check_multiples(number):
     for i in range(2, 7):
-        if orderDigits(number) != orderDigits(i * number):
+        if order_digits(number) != order_digits(i * number):
             return 0
     return 1
 
 
 def main():
-    currentNumber = 1
+    current_number = 1
     while True:
-        if checkMultis(currentNumber) == 1:
-            print(currentNumber)
+        if check_multiples(current_number) == 1:
+            print(current_number)
             break
         else:
-            currentNumber += 1
+            current_number += 1
 
 if __name__ == "__main__":
     main()
