@@ -17,7 +17,6 @@ def checkMultis(number):
 def main():
     currentNumber = 1
     while True:
-        print(currentNumber)
         if checkMultis(currentNumber) == 1:
             print(currentNumber)
             break
