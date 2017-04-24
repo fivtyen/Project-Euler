@@ -3,7 +3,7 @@ import math
 
 def is_pentagonal(x):
     n = (math.sqrt(24*x+1) + 1)/6
-    return n == int(n)
+    return int(n)
 
 
 def pentagonal(n):
