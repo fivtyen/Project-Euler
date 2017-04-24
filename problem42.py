@@ -29,6 +29,7 @@ def read_words(filename):
     file = open(filename)
     for word in file.read().split(','):
         word_list.append(word.replace('"', ''))
+    file.close()
     return word_list
 
 
