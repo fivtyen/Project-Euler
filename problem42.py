@@ -1,4 +1,4 @@
-def generate_triangles():
+def generate_triangle_numbers():
     triangle_numbers = []
     for i in range(10000):
         t_number = int(0.5 * i * (i + 1))
@@ -7,7 +7,7 @@ def generate_triangles():
 
 
 def check_if_triangle(number):
-    triangle_numbers = generate_triangles()
+    triangle_numbers = generate_triangle_numbers()
     if number in triangle_numbers:
         return 1
     return 0
