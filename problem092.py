@@ -1,21 +1,15 @@
-#messy bruteforce, rather slow one
-
-def get_digits(number):
-    s_number = str(number)
-    digits = []
-    for char in s_number:
-        digits.append(int(char))
-    return digits
+# messy brute force, rather slow one
 
 
 def get_next_number(number):
-    digits = get_digits(number)
-    squared = 0
-    for digit in digits:
-        squared += digit**2
-    return squared
+    next_number = 0
+    for char in str(number):
+        next_number += (int(char))**2
+    return next_number
 
 
+# returns chain for a given number
+# stops at first '89' in a chain unless there isn't one then it goes to the end
 def get_chain(start_number):
     chain = [start_number]
     current_number = start_number
@@ -33,9 +27,7 @@ def get_chain(start_number):
 
 def main():
     result = 0
-    for i in range(10**7):
-        if i % 100000 == 0:
-            print(i)
+    for i in range(1000):
         n = get_chain(i)
         if 89 in n:
             result += 1
