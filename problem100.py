@@ -1,4 +1,4 @@
-#equations from https://www.alpertron.com.ar/QUAD.HTM
+# equations from https://www.alpertron.com.ar/QUAD.HTM
 
 blue_discs = 15
 total_discs = 21
@@ -14,4 +14,3 @@ while total_discs < end_point:
 print(blue_discs)
 
 
-    
