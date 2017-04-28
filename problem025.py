@@ -4,6 +4,7 @@ def fibbonaci(number):
         a, b = b, a+b
     return a
 
+
 num_check = 0
 number = 4000
 while True:

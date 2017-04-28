@@ -1,15 +1,14 @@
 def reminders(number):
     lr = []
     r = 1
-
     while r != 0:
         r = r % number
         if r in lr:
             return len(lr)
         lr.append(r)
         r *= 10
-
     return 0
+
 
 rMax = 0
 iMax = 0

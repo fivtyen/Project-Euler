@@ -4,6 +4,7 @@ def fib(n):
         a, b = b, a+b
     return a
 
+
 x = 1
 result = 0
 while fib(x) <= 4000000:

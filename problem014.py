@@ -1,7 +1,7 @@
 def collatz_counter(n):
     tab = [n]
     while n > 1:
-        if n%2 != 0:
+        if n % 2 != 0:
             n = 3 * n + 1
             tab.append(int(n))
         else:
@@ -9,10 +9,11 @@ def collatz_counter(n):
             tab.append(int(n))
     return len(tab)
 
+
 result = 0
 max_length = 0
 
-for i in range (1000000, 1, -1):
+for i in range(1000000, 1, -1):
     temp = i
     current_length = collatz_counter(i)
     if current_length > max_length:

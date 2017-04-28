@@ -1,20 +1,18 @@
-#Project Euler problem no. 23
-
-limit = 28123
-
 def check_abundant(number):
     value = 0
     for i in range(1, number):
-        if number%i == 0:
+        if number % i == 0:
             value += i
     if value > number:
         return True
 
+    
+limit = 28123
 ab_numbers = []
 result = 0
 
 for i in range(2, limit):
-    if check_abundant(i) == True:
+    if check_abundant(i):
         ab_numbers.append(i)
 
 check_list = [None] * (limit + 1)

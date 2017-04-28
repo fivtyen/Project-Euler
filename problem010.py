@@ -8,6 +8,7 @@ def is_prime(n):
         return False
     return all(n % i for i in range(3, int(math.sqrt(n)) + 1, 2))
 
+
 for i in range(2, 2000000):
     if is_prime(i):
         result += i
